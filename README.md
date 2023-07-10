@@ -36,6 +36,10 @@ This is a simple Go program that converts JSON data to MessagePack format. It ut
    ```shell
    go build
    ```
+4. Unit test:
+   ```shell
+   go test
+   ```
 
 ### Usage
 
