@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 // Builder builds the MessagePack representation of a value
 type Builder struct {

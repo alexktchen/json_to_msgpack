@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 import (
 	"math"

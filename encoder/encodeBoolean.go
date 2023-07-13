@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 // withBool adds a boolean value to the MessagePack representation
 func (b *Builder) WithBool(value bool) *Builder {

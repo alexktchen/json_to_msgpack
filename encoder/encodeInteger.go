@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 // withInt adds an integer value to the MessagePack representation
 func (b *Builder) WithInt(value int64) *Builder {

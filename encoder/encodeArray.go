@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 // withArray adds an array value to the MessagePack representation
 func (b *Builder) WithArray(values []interface{}) *Builder {

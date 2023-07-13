@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 // withMap adds a map value to the MessagePack representation
 func (b *Builder) WithMap(values map[string]interface{}) *Builder {

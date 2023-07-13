@@ -1,4 +1,4 @@
-package builders
+package encoder
 
 // withString adds a string value to the MessagePack representation
 func (b *Builder) WithString(value string) *Builder {

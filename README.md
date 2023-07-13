@@ -46,8 +46,25 @@ This is a simple Go program that converts JSON data to MessagePack format. It ut
 To convert JSON data to MessagePack format, you can execute the program and provide the JSON data as input.
 
 ```shell
-./json-to-msgpack json '{"age" : "1" , "name" : "Daniel"}'    
+./json_to_msgpack json '{"age" : "1" , "name" : "Daniel"}'
 ```
+### output
+```shell
+type: json
+data: {"age" : "1" , "name" : "Daniel"}
+results: 82a3616765a131a46e616d65a644616e69656c
+```
+
+```shell
+./json_to_msgpack msgpack '82a3616765a131a46e616d65a644616e69656c'
+```
+### output
+```shell
+type: msgpack
+data: 82a3616765a131a46e616d65a644616e69656c
+results : {"age":"1","name":"Daniel"}
+```
+
 
 - `type`: the input type. E.g. json
 - `data`: the json data
